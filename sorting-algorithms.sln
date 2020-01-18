@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heapsort", "Heapsort", "{AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapSort", "HeapSort\HeapSort.csproj", "{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{0386A2EA-23BB-4313-BCCF-B23760275E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770} = {AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}
+		{0386A2EA-23BB-4313-BCCF-B23760275E0E} = {AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C2BA3B6-6CFF-4EF5-BA85-57CF9278764D}
+	EndGlobalSection
+EndGlobal
