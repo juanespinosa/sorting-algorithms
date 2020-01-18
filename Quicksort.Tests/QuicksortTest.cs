@@ -5,9 +5,9 @@ namespace Quicksort.Tests
 {
     public class QuicksortTest : IDisposable
     {
-        private Quicksort _qs;
-        private int[] _A;
-        private const int _min = -1, _max = 10;
+        protected Quicksort _qs;
+        protected int[] _A;
+        protected const int _min = -1, _max = 10;
 
         public QuicksortTest()
         {
