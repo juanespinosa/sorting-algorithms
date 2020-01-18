@@ -2,7 +2,7 @@
 
 namespace Quicksort
 {
-    public class QuicksortAlgorithm
+    public class Quicksort
     {
         /// <summary>
         /// Calls the quicksort implementation
@@ -10,7 +10,7 @@ namespace Quicksort
         /// <param name="A">Array to be sorted</param>
         public void Sort(int[] A)
         {
-            Quicksort(A, 1, A.Length);
+            Sort(A, 1, A.Length);
         }
 
         /// <summary>
@@ -19,13 +19,13 @@ namespace Quicksort
         /// <param name="A">Array to be sorted</param>
         /// <param name="p">first position</param>
         /// <param name="r">last position</param>
-        private void Quicksort(int[] A, int p, int r)
+        private void Sort(int[] A, int p, int r)
         {
             if(p < r)
             {
                 var q = Partition(A, p, r);
-                Quicksort(A, p, q - 1);
-                Quicksort(A, q + 1, r);
+                Sort(A, p, q - 1);
+                Sort(A, q + 1, r);
             }
         }
 
@@ -41,7 +41,7 @@ namespace Quicksort
         {
             var x = A[r - 1]; // pivot
             var i = p - 1;
-            for(int j = p; p < r - 1; j++)
+            for(int j = p; j <= r - 1; j++)
             {
                 if(A[j - 1] <= x)
                 {
