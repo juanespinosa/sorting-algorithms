@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HeapSort\Heapsort.csproj" />
+    <ProjectReference Include="..\SortingAlgorithms.Heapsort\SortingAlgorithms.Heapsort.csproj" />
   </ItemGroup>
 
 </Project>

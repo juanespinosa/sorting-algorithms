@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Quicksort\Quicksort.csproj" />
+    <ProjectReference Include="..\SortingAlgorithms.Quicksort\SortingAlgorithms.Quicksort.csproj" />
   </ItemGroup>
 
 </Project>
