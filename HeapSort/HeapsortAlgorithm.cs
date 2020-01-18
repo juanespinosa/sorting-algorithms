@@ -1,9 +1,11 @@
-﻿namespace HeapSort
+﻿using SortingAlgorithms.Utils;
+
+namespace HeapSort
 {
     /// <summary>
     /// Implementation of a the Heap Sort Algorithm
     /// </summary>
-    public class HeapSort
+    public class HeapsortAlgorithm
     {
         /// <summary>
         /// Implementation of the Heap Sort Algorithm
@@ -15,7 +17,7 @@
             BuildMaxHeap(A);
             for (int i = A.Length; i >= 2; i--)
             {
-                Exchange(A, 1, i);
+                Common.Exchange(A, 1, i);
                 MaxHeapify(A, 1, --heapSize);
             }
         }
@@ -47,22 +49,9 @@
             
             if(largest != i)
             {
-                Exchange(A, i, largest);
+                Common.Exchange(A, i, largest);
                 MaxHeapify(A, largest, n);
             }
-        }
-
-        /// <summary>
-        /// Exchange two positions in the array
-        /// </summary>
-        /// <param name="A">The array with the elements</param>
-        /// <param name="posA">Position A to swap</param>
-        /// <param name="posB">Position B to Swap</param>
-        public void Exchange(int[] A, int posA, int posB)
-        {
-            var old = A[posA - 1];
-            A[posA - 1] = A[posB - 1];
-            A[posB - 1] = old;
         }
 
         /// <summary>

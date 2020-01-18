@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heapsort", "Heapsort", "{AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heapsort Algorithm", "Heapsort Algorithm", "{AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapSort", "HeapSort\HeapSort.csproj", "{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heapsort", "HeapSort\Heapsort.csproj", "{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{0386A2EA-23BB-4313-BCCF-B23760275E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quicksort Algorithm", "Quicksort Algorithm", "{A3F23AE3-AF9E-44EF-9EB2-FEE426110773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksort", "Quicksort\Quicksort.csproj", "{B8BDEE13-EA3F-40C5-B6BF-7998E814F180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms.Utils", "SortingAlgorithms.Utils\SortingAlgorithms.Utils.csproj", "{77842CA7-2C5C-43C0-BFE4-AD03A8C43C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0386A2EA-23BB-4313-BCCF-B23760275E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BDEE13-EA3F-40C5-B6BF-7998E814F180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BDEE13-EA3F-40C5-B6BF-7998E814F180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BDEE13-EA3F-40C5-B6BF-7998E814F180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BDEE13-EA3F-40C5-B6BF-7998E814F180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77842CA7-2C5C-43C0-BFE4-AD03A8C43C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77842CA7-2C5C-43C0-BFE4-AD03A8C43C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77842CA7-2C5C-43C0-BFE4-AD03A8C43C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77842CA7-2C5C-43C0-BFE4-AD03A8C43C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1D4B0E19-EEEC-4274-8DB3-8BF8CA198770} = {AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}
 		{0386A2EA-23BB-4313-BCCF-B23760275E0E} = {AD2530B0-40BB-4CEB-9E2D-F285EBEEABED}
+		{B8BDEE13-EA3F-40C5-B6BF-7998E814F180} = {A3F23AE3-AF9E-44EF-9EB2-FEE426110773}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C2BA3B6-6CFF-4EF5-BA85-57CF9278764D}

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortingAlgorithms.Utils;
+using System;
 
 namespace PriorityQueue
 {
@@ -6,12 +7,12 @@ namespace PriorityQueue
     {
         private int[] _A;
 
-        private readonly HeapSort.HeapSort _hs;
+        private readonly HeapSort.HeapsortAlgorithm _hs;
         
         public PriorityQueue()
         {
             _A = new int[0];
-            _hs = new HeapSort.HeapSort();
+            _hs = new HeapSort.HeapsortAlgorithm();
         }
 
         /// <summary>
@@ -51,7 +52,7 @@ namespace PriorityQueue
             _A[i - 1] = key;
             while(i > 1 && _A[_hs.Parent(i) - 1] < _A[i - 1])
             {
-                _hs.Exchange(_A, i, _hs.Parent(i));
+                Common.Exchange(_A, i, _hs.Parent(i));
                 i = _hs.Parent(i);
             }
         }
